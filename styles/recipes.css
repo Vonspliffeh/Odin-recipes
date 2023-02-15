@@ -1,0 +1,42 @@
+* {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+body {
+  background-image: url(/recipes/photos/background-recipes.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0% 20%;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+img {
+  width: 40%;
+  object-fit: cover;
+  float: right;
+  margin-left: 20px;
+  border: 15px solid;
+  border-image: url(https://thumbs.dreamstime.com/b/vieux-fond-en-bois-33054589.jpg) 30 / 15px / 0px stretch;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+ul {
+  list-style-position: inside;
+}
+
+a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: right;
+}
