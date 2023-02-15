@@ -2,6 +2,7 @@
   font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
   color: black;
+  margin: 0;
 }
 
 body {
@@ -9,16 +10,22 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  margin: 0% 20%;
+  padding: 2.5% 20%;
 }
 
 h1 {
   font-size: 4em;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 h2 {
   font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 img {
@@ -33,10 +40,35 @@ img {
 
 ul {
   list-style-position: inside;
+  margin-bottom: 20px;
+}
+
+ol {
+  margin-bottom: 20px;
 }
 
 a {
   margin-top: 20px;
   margin-bottom: 20px;
   float: right;
+}
+
+@media screen and (max-width : 1024px) {
+  
+  body {
+    padding : 10% 10% 10% 10%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1,5em;
+  }
+
+  img {
+    width: 80%;
+    margin-bottom: 40px;
+  }
 }
